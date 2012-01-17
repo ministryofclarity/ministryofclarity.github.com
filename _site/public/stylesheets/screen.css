@@ -1,0 +1,413 @@
+/* line 7, sass/screen.sass */
+img {
+  margin-bottom: 30px;
+  display: block;
+}
+
+/* line 11, sass/screen.sass */
+body {
+  background-color: #f2f2f1;
+  color: #232323;
+  font-family: georgia;
+}
+
+/* line 15, sass/screen.sass */
+p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 20, sass/screen.sass */
+p.stub {
+  color: #777777;
+  margin-top: -10px;
+}
+
+/* line 24, sass/screen.sass */
+hr {
+  background: url(/images/chrome/divider.png) top center no-repeat;
+  height: 20px;
+  display: block;
+  border: none;
+  border-style: hidden;
+  margin: 40px 0;
+}
+
+/* line 34, sass/screen.sass */
+.footer .colophon {
+  background: url(/images/chrome/moc-symbol.png) top center no-repeat;
+  height: 80px;
+  margin: 40px 0;
+}
+/* line 38, sass/screen.sass */
+.footer .colophon p {
+  font-size: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-weight: bold;
+}
+/* line 44, sass/screen.sass */
+.footer .colophon p span {
+  padding-left: 60px;
+  font-weight: normal;
+}
+
+/* line 49, sass/screen.sass */
+ul {
+  list-style: disc outside none;
+  margin: 0 0 30px 30px;
+}
+/* line 52, sass/screen.sass */
+ul li {
+  font-size: 20px;
+  line-height: 30px;
+}
+/* line 55, sass/screen.sass */
+ul li.problem {
+  background: url(/images/icons/x.png) 0 0 no-repeat;
+  list-style: none;
+}
+
+/* line 58, sass/screen.sass */
+ul#article_index {
+  list-style: none;
+  margin: 0;
+}
+/* line 62, sass/screen.sass */
+ul#article_index li a {
+  font-weight: bold;
+}
+
+/* line 68, sass/screen.sass */
+#ministry {
+  background: url(/images/chrome/ministry.png) 0 0 no-repeat;
+  height: 80px;
+  width: 87px;
+  text-indent: -999999px;
+  float: left;
+  clear: both;
+  margin-bottom: 21px;
+  margin-top: 21px;
+}
+
+/* line 80, sass/screen.sass */
+#secret_header {
+  display: table;
+  height: 35px;
+  clear: both;
+}
+
+/* line 85, sass/screen.sass */
+ul#nav {
+  list-style: none outside none;
+  margin: 0 0 21px 0;
+}
+
+/* line 88, sass/screen.sass */
+#nav li {
+  text-align: right;
+  margin-bottom: 0;
+}
+/* line 91, sass/screen.sass */
+#nav li a {
+  font-weight: bold;
+  display: block;
+  color: #555555;
+  text-decoration: none;
+  padding: 7px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 98, sass/screen.sass */
+#nav li a:hover {
+  color: #db1750;
+  background-color: #dbdbdb;
+}
+/* line 101, sass/screen.sass */
+#nav li .active {
+  background-color: #dbdbdb;
+  color: #232323;
+}
+
+/* line 107, sass/screen.sass */
+h1 {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+/* line 111, sass/screen.sass */
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
+
+/* line 114, sass/screen.sass */
+h2 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+/* line 118, sass/screen.sass */
+h3 {
+  font-size: 22px;
+  line-height: 21px;
+}
+
+/* line 123, sass/screen.sass */
+h4 {
+  font-size: 16px;
+  margin-bottom: 7px;
+  line-height: 21px;
+}
+
+/* line 131, sass/screen.sass */
+a {
+  color: #ba262b;
+  text-decoration: none;
+  -moz-transition-property: color;
+  -webkit-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -moz-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+/* line 137, sass/screen.sass */
+a:visited {
+  color: #982024;
+}
+
+/* line 139, sass/screen.sass */
+a:hover {
+  color: #db1750;
+  text-decoration: underline;
+}
+
+/* line 142, sass/screen.sass */
+a:active {
+  color: #801736;
+}
+
+/* line 147, sass/screen.sass */
+.post {
+  margin-bottom: 21px;
+}
+
+/* line 149, sass/screen.sass */
+.manycols {
+  clear: left;
+}
+
+/* line 153, sass/screen.sass */
+.box {
+  background: #dbdbdb;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 156, sass/screen.sass */
+.box p {
+  padding: 14px 21px;
+}
+
+/* line 158, sass/screen.sass */
+a.linkbox {
+  display: block;
+  padding: 14px 47px;
+  background: #dbdbdb url(/images/chrome/out.png) 14px 13px no-repeat;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 21px;
+  text-decoration: none;
+}
+
+/* line 165, sass/screen.sass */
+a.linkbox:hover {
+  background: #db1750 url(/images/chrome/out.png) 14px 13px no-repeat;
+  color: #232323;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 171, sass/screen.sass */
+  .sidebar {
+    display: none;
+  }
+
+  /* line 173, sass/screen.sass */
+  #nav li a {
+    text-align: left;
+  }
+
+  /* line 175, sass/screen.sass */
+  #tm_logo {
+    float: left;
+  }
+
+  /* line 177, sass/screen.sass */
+  .deck_container {
+    width: 300px;
+  }
+
+  /* line 179, sass/screen.sass */
+  #tmhero {
+    display: none;
+  }
+}
+@media only screen and (max-width: 479px) {
+  /* line 183, sass/screen.sass */
+  .footer {
+    display: none;
+  }
+}
+/* line 5, sass/insights.sass */
+blockquote {
+  background-image: url(/images/chrome/quote.png);
+  background-position: 10px 35px;
+}
+/* line 8, sass/insights.sass */
+blockquote > * {
+  background: white;
+}
+
+/* line 10, sass/insights.sass */
+blockquote, .insight {
+  background-repeat: no-repeat;
+  border: none;
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 30px;
+}
+/* line 15, sass/insights.sass */
+blockquote img, .insight img {
+  margin: 0px;
+}
+/* line 17, sass/insights.sass */
+blockquote p, .insight p {
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+/* line 21, sass/insights.sass */
+blockquote > *, .insight > * {
+  background: white;
+  margin: 0 0 0 80px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  color: #777777;
+}
+/* line 28, sass/insights.sass */
+blockquote *:first-child, .insight *:first-child {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -o-border-top-left-radius: 5px;
+  -ms-border-top-left-radius: 5px;
+  -khtml-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -o-border-top-right-radius: 5px;
+  -ms-border-top-right-radius: 5px;
+  -khtml-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-top: 25px;
+}
+/* line 31, sass/insights.sass */
+blockquote *:last-child, .insight *:last-child {
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -o-border-bottom-left-radius: 5px;
+  -ms-border-bottom-left-radius: 5px;
+  -khtml-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -o-border-bottom-right-radius: 5px;
+  -ms-border-bottom-right-radius: 5px;
+  -khtml-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-bottom: 25px;
+}
+
+/* line 35, sass/insights.sass */
+.problem {
+  background-image: url(/images/chrome/problem.png);
+  background-position: 21px 38px;
+}
+/* line 38, sass/insights.sass */
+.problem > * {
+  background: #ba262b;
+  color: white;
+}
+
+/* line 42, sass/insights.sass */
+.solution {
+  background-image: url(/images/chrome/solution.png);
+  background-position: 18px 35px;
+}
+/* line 45, sass/insights.sass */
+.solution > * {
+  background: #00a651;
+  color: white;
+}
+
+/* line 49, sass/insights.sass */
+.tool {
+  background-image: url(/images/chrome/tool.png);
+  background-position: 15px 35px;
+}
+/* line 52, sass/insights.sass */
+.tool > * {
+  background: #0072bc;
+  color: white;
+}
+
+/* line 56, sass/insights.sass */
+.link {
+  background-image: url(/images/chrome/link.png);
+  background-position: 15px 33px;
+}
+/* line 59, sass/insights.sass */
+.link > * {
+  background: #333333;
+  color: white;
+}
+
+/* line 63, sass/insights.sass */
+.idea {
+  background-image: url(/images/chrome/idea.png);
+  background-position: 28px 35px;
+}
+/* line 66, sass/insights.sass */
+.idea > * {
+  background: #c7b299;
+  color: #232323;
+}
+
+/* line 70, sass/insights.sass */
+.source {
+  background-image: url(/images/chrome/source.png);
+  background-position: 18px 35px;
+}
+/* line 73, sass/insights.sass */
+.source > * {
+  background: #605ca8;
+  color: white;
+}

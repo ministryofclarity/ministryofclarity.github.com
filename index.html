@@ -1,3 +1,14 @@
-<html>
-<p>Derp</p>
-</html>
+---
+layout: big
+title: Thought Merchants
+meta: Creating Usable Experiences
+author: Steve Berry
+---
+
+<div class="fourteen columns" id="secret_header"></div>
+
+<ul id="article_index">
+{% for post in site.posts %}
+{% include post_template.html %}
+{% endfor %}
+</ul>
