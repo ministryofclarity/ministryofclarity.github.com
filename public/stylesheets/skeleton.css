@@ -233,8 +233,3 @@
       height: 0;
     }
 
-
-@media screen and (-webkit-device-pixel-ratio: 2){
-   #ministry { background: url(/images/chrome/ministry@2x.png) 0 0 no-repeat; }
-}
-
