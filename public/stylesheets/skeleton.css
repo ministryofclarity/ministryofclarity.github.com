@@ -234,3 +234,7 @@
     }
 
 
+@media screen and (min-device-pixel-ratio: 2){
+   background: url(/images/chrome/ministryBig.png) 0 0 no-repeat
+}
+
